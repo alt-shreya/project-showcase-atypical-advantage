@@ -3,7 +3,7 @@ In this project, I aim to harness the power of natural language processing to ev
 
 ## Technology Used
 > Libraries
-```
+```bash
 torch
 transformers
 requests
@@ -15,7 +15,11 @@ numpy
 > Model
     Pretrained language model: BERT Multilingual Model
 
-## Next Steps:
+
+## Next Steps
+* Adding an intuitive UI
+    I'm working on building an interface using Streamlit, and a better visualisation.
+
 * Adding support for multiple languages: 
     While I was building this project, I came across a few reviews in Hindi (with Roman script), which made me curious about the extended application to reviews in languages other than the ones currently supported.
 
