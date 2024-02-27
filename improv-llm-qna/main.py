@@ -11,7 +11,7 @@ query = st.text_input("Enter query here")
 
 if query:
     chain = create_qna_chain()
-    response = chain(query)
+    response = chain.run(query)
 
     st.header("Answer")
     st.write(response["answer"])
