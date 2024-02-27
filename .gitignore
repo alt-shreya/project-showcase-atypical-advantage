@@ -1,2 +1,5 @@
 .vscode/settings.json
 improv-llm-qna/.vscode/settings.json
+improv-llm-qna/faiss_db/index.faiss
+improv-llm-qna/__pycache__/script.cpython-310.pyc
+improv-llm-qna/faiss_db/index.pkl
